@@ -76,3 +76,8 @@ _note: see existing template for examples._
 to avoid that with the tech you're using itself. I've provided a way to stop those tools from scanning these improper
 files by hiding them using a fake extension in your template directory using `.tmp`. Feel free
 to use this when needed.
+
+
+# [Contact me](https://www.making.codes/#contact-me)
+I am available for hire. You can quickly get in contact with me here:
+[making.codes/#contact-me](https://www.making.codes/#contact-me)
