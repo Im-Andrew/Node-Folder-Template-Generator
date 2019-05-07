@@ -1,0 +1,24 @@
+---
+name: {component TITLE}
+menu: Components
+---
+
+import { Playground, PropsTable } from 'docz'
+import { {component PASCAL} } from './{component CAMPAS}'
+
+# {component TITLE}
+
+Summary text
+
+## Properties
+
+<PropsTable of={ {component PASCAL} } />
+
+## Basic usage
+
+<Playground>
+  <{component PASCAL}>Some message</{component PASCAL}>
+</Playground>
+
+
+## Tests
