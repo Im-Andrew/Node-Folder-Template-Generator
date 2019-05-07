@@ -5,6 +5,8 @@ based on some formatting rules, and enable you to generate
 different versions of that folder structure with the names replaced
 against the defined filters.
 
+![](gh/demo.gif)
+
 # Test it right now!
 It takes only three steps to watch templator work. Simply do the steps below and copy-paste the commands.
 
