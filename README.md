@@ -25,16 +25,16 @@ Provide templator a minimum of 3 arguments.
 1. Argument 1: template name
 2. Argument 2: output folder path (relative to the current working directory)
 3. Argument 3: a list of strings delimited by spaces.
-    i. The strings in Argument 3 will be effected by the pipes by how they seperate words using a hyphen.
-    ii. The pattern after each hyphen will be treated as another word in the passed string.
+    - The strings in Argument 3 will be effected by the pipes by how they seperate words using a hyphen.
+    - The pattern after each hyphen will be treated as another word in the passed string.
 
 __Note: The following example uses one of the existing templates.__
 
 example command: `node tools/templator.js component-full src/components/ Big-image Small-image Countdown-timer`
 
-## The output  
-This will generate 3 folders inside of components named `BigImage`, `SmallImage`, and `CountdownTimer` where each
-folder contains similarly structured files but the contents have been inlined with the passed items.
+### The output  
+The above command will generate 3 folders inside of components named `BigImage`, `SmallImage`, and `CountdownTimer` where each
+folder contains similarly structured files but the contents have been inlined with the passed strings.
 
 
 # Template Documentation
@@ -53,7 +53,7 @@ folder contains similarly structured files but the contents have been inlined wi
 The format is as follows:
 1. Wrap the component name inside of brackets `{component}`
 2. Give the component a pipe by adding it to the end of the container `{component PIPE}`
-    i. _Note:_ It is important that there is a space between the component name and the pipe.
+    - _Note:_ It is important that there is a space between the component name and the pipe.
 3. You're done.
 
 
@@ -64,7 +64,7 @@ place a quotation mark at the end like so: `{dont pipe?}`. It will be then left 
 
 1. Take a common folder pattern you use
 2. Replace the name found throughout the folder structure with the corresponding pipe.
-    i. For example: Campas for file names, Camel for (most languages) Class names
+    - For example: `Campas` for file names, `Camel` for (most languages) Class names
 3. You can replace the repeating name with a pipe such as a file name, or anywhere in a textfile
 4. Place this template folder in the `templates` directory, and now you can generate templates with it by its name
 
